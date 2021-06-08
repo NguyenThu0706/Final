@@ -1,0 +1,247 @@
+/* CSS Document */@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;800&family=Montserrat:wght@100&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+#outet{
+	width: 100%;
+}
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	background: #FFE0DD;
+}
+.logo {
+	width:25%;
+	display: inline-block;
+	
+}
+.logo a img{
+	width: 50%;
+	margin-top: 2%
+}
+.menu{
+	width: 70%;
+	float: right;
+	display: inline-block;
+	margin-left: -5px;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 9px;
+}
+.menu ul li a{
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-weight: bolder;
+}
+.menu ul li a:hover{
+	color: #D0787A;
+}
+.section1{
+	height: 400px;
+}
+.banner{
+	width: 100%;
+	height: 500px;
+	background:#FFE0DD;
+	padding: 90px 0;
+}
+.img-banner{
+	width: 60%;
+	margin: -40px;
+	display: inline-block;
+	float: left;
+}
+.img-banner img{
+	width: 100%;
+}
+.text-box{
+	font-size: 15px;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+.text-box p{
+	margin-bottom: 20px;
+}
+.btn{
+	background:#E18284;
+	padding: 5px 40px;
+	color: aliceblue;
+	text-decoration: none;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.btn-transparent{
+	background: transparent;
+	border: 1px solid #E18284;
+}
+.text{
+	padding: 50px;
+	height: 50px;
+	text-align: center;
+	color: #EE8586;
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size:30px;
+}
+.section2{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.boxA{
+	width: 300px;
+	
+}
+.boxA img{
+	width: 250px;
+	margin-left: 270px;
+}
+.textA p{
+	width: 300px;
+	align-content: center;
+	font-size: 15px;
+	margin-left:  270px;
+}
+.textA h4{
+	width: 300px;
+	align-content: center;
+	margin-left:  270px;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.boxB{
+	width: 300px;
+	
+}
+.boxB img{
+	width: 250px;
+	margin-left:270px;
+}
+.textB p{
+	width: 300px;
+	align-content: center;
+	font-size: 15px;
+	margin-left: 270px;
+}
+.textB h4{
+	width: 300px;
+	align-content: center;
+	margin-left:270px;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.boxC{
+	width: 300px;
+	
+}
+.boxC img{
+	width: 250px;
+	margin-left:270px;
+}
+.textC p{
+	width: 300px;
+	align-content: center;
+	font-size: 15px;
+	margin-left:270px;
+}
+.textC h4{
+	width: 300px;
+	align-content: center;
+	margin-left:270px;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.khoiA{
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.page{
+	padding: 40px;
+	margin-left: 80px;
+}
+.btn-page{
+	
+	padding: 4px 15px;
+	color: #EE8586 ;
+	text-decoration: none;
+	font-family: 'Baloo Tammudu 2', cursive;
+	background: transparent;
+	border: 1px solid #E18284;
+}
+.btn-page2{
+	
+	padding: 4px 15px;
+	color: #EE8586 ;
+	text-decoration: none;
+	font-family: 'Baloo Tammudu 2', cursive;
+	background: transparent;
+	border: 1px solid #E18284;
+}
+.btn-page3{
+	
+	padding: 4px 15px;
+	color: #EE8586 ;
+	text-decoration: none;
+	font-family: 'Baloo Tammudu 2', cursive;
+	background: transparent;
+	border: 1px solid #E18284;
+}
+.footer{
+	margin-top: 60px;
+	width: 100%;
+	height: 250px;
+	background: #EE8586;
+}
+.bigbox{
+	width: 800px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+}
+.footer h3{
+	color: aliceblue;
+	font-weight: bold;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.footer p{
+	color: aliceblue;
+	font-size: 14px;
+	padding: 10px;
+}
+.link{
+	height: 40px;
+	margin-top: 5px;
+}
+.link p{
+	font-size:15px;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.link a{
+	text-decoration:none;
+	color: aliceblue
+}
+.section2 a{
+	text-decoration: none;
+	color:#F39596;
+}
+.section2 a:hover{
+	color: #CE1417;
+}
+
+
